@@ -1,0 +1,110 @@
+#line1, #line2 {
+    
+    -fx-stroke: #002c75;
+    -fx-fill: #002c75;
+}
+
+.button {
+    
+    -fx-background-color: #002c75, #adccff;
+    -fx-text-fill: #002c75;
+    -fx-font-weight: bold;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0, 1;
+    -fx-pref-width: 100;
+}
+
+.button:hover {
+    
+    -fx-background-color: #002c75, #eaf2ff;
+}
+
+.button:pressed {
+    
+    -fx-background-color: #002c75, #eaf2ff;
+    -fx-background-insets: 0, 3;
+}
+
+#gireflongtext {
+    
+    -fx-font-family: "Arial";
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-text-fill: #002c75;
+}
+
+#gireflogo {
+    
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 36;
+    -fx-alignment:center;
+}
+
+#gireflogo .text {
+    
+    -fx-fill: #adccff;
+    -fx-stroke: #002c75;
+    -fx-stroke-width: 1;
+}
+
+#dnaLabel {
+    
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+    -fx-text-fill: #002c75;
+    -fx-background-color: #adccff;
+    -fx-border-color: #002c75;
+    -fx-border-width: 2;
+}
+
+#dnaText {
+    
+    -fx-border-color: #002c75;
+    -fx-border-width: 2;
+}
+
+.label {
+    
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+    -fx-text-fill: #002c75;
+}
+
+.check-box .box {
+    
+    -fx-background-color: #adccff;
+    -fx-border-color: #002c75;
+    -fx-border-width: 1;
+}
+
+.check-box:selected .mark {
+    
+    -fx-background-color: #002c75;
+}
+
+.check-box {
+    
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+    -fx-text-fill: #002c75;
+}
+
+.combo-box-base {
+    
+    -fx-background-color: #002c75, #adccff;
+    -fx-background-radius: 5;
+    -fx-background-insets: 0, 1;
+}
+
+.combo-box-base:hover {
+    
+    -fx-background-color: #002c75, #eaf2ff;
+}
+
+.combo-box-base:disabled {
+    -fx-opacity: .4;
+}
