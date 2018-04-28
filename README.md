@@ -1,5 +1,5 @@
-#GIREF
-##Graphical Interface Restriction Enzyme Finder - University Project
+# GIREF
+## Graphical Interface Restriction Enzyme Finder - University Project
 
 This is the project containing my thesis work for the University of Debrecen.
 
